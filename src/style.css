@@ -1,0 +1,58 @@
+body{
+    background: url('./donJulio2.png');
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Mono', monospace;
+    color: #ffffff;
+}
+.content{
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: inline-grid;
+    justify-items: center;
+}
+h1{
+    font-size: 45px;
+    padding: 50px;
+    margin: 0px 0px;
+}
+.donJulioImage{
+    border-radius: 50%;
+    margin: 10px;
+}
+a:link, a:visited,  a:hover, a:active
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+#information{
+    margin: 60px 0px;
+}
+button{
+   font-size: 20px;
+   border: none;
+   font-family: 'Roboto Mono', monospace;
+   color: #ffffff;
+   background: rgba(0,0,0,0.6);
+   padding: 0px 70px;
+}
+#arrayBtn{
+    display: grid;
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3];
+}
+.menuIcon{
+    height: auto;
+    width: 50%;
+}
+.contentMenuAndContact{
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    min-height: 300px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3];
+    align-items: center;
+    justify-items: center;
+}
